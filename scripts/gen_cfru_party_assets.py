@@ -57,7 +57,7 @@ FR_DECOMP = decomp("pokefirered")
 # game prints it, live gBaseStats (the one with literal-pool refs - Radical
 # Red and Amethyst keep a stale vanilla copy at 0x254784 too), species count.
 GAMES = {
-    "unbound": dict(name="Unbound", sub="ub", sha1="b4776b82a4c7915d0fadeaa27e013523f99dfd94",
+    "unbound": dict(name="Unbound", sub="ub", sha1="0CE2A880AA097F1DCE4E1DB8EE513D0E82D15859",
                     egg="Egg", base_stats=0x19E0C9C, species=1294),
     "radical_red": dict(name="RadicalRed", sub="rr", sha1="964f951a0fdaf209e4ea1344883ef0d557bb3a80",
                         egg="Egg", base_stats=0x17B98EC, species=1323),
