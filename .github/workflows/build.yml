@@ -9,8 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          submodules: true
+
+      - name: Fetch mGBA submodule
+        run: git submodule update --init --depth=1 third_party/mgba
 
       - uses: actions/setup-java@v4
         with:
