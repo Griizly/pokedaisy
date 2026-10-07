@@ -336,7 +336,7 @@ class TelemetrySampler {
             else -> code
         }
 
-        const val UNBOUND_V2_1_1_1_SHA1 = "b4776b82a4c7915d0fadeaa27e013523f99dfd94"
+        const val UNBOUND_V2_1_1_1_SHA1 = "0CE2A880AA097F1DCE4E1DB8EE513D0E82D15859"
         // Pokémon Gaia v3.2 - see NATIVE_GAIA_V3_2 in NativeReader.kt for the
         // verification this address reuse is based on.
         const val GAIA_V3_2_SHA1 = "d5b1e77975fcda831e0e9a7b527906bf3f40ecd0"
